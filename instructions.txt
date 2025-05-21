@@ -1,0 +1,31 @@
+Welcome to the Sudoku Solver!
+
+How to Use:
+- You will be asked to input your Sudoku puzzle.
+- Enter **exactly 81 digits in a single line** (no spaces, no separators).
+- Use digits 1-9 for known values.
+- Use 0 (zero) for empty or blank cells.
+
+Example:
+If your puzzle looks like this (underscores are blanks):
+
++-------+-------+-------+
+| 5 3 _ | _ 7 _ | _ _ _ |
+| 6 _ _ | 1 9 5 | _ _ _ |
+| _ 9 8 | _ _ _ | _ 6 _ |
++-------+-------+-------+
+| 8 _ _ | _ 6 _ | _ _ 3 |
+| 4 _ _ | 8 _ 3 | _ _ 1 |
+| 7 _ _ | _ 2 _ | _ _ 6 |
++-------+-------+-------+
+| _ 6 _ | _ _ _ | 2 8 _ |
+| _ _ _ | 4 1 9 | _ _ 5 |
+| _ _ _ | _ 8 _ | _ _ 9 |
++-------+-------+-------+
+
+You would enter:
+530070000600195000098000060800060003400803001700020006060000280000419005000080079
+
+Then press Enter and let the program solve it!
+
+Enjoy solving Sudoku!
